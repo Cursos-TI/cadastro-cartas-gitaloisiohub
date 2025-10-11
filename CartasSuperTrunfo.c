@@ -26,6 +26,14 @@ int main() {
   printf("Digite o numero de pontos turisticos: \n");
   scanf("%d", &numero);
   
+  // Densidade populacional: população / pela área
+  //PIB per Capita: PIB total dividido pela população
+
+   
+
+
+
+
   
 
 return 0;
