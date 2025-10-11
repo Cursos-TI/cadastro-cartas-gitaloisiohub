@@ -40,10 +40,6 @@ int main() {
   //PIB per Capita: PIB total dividido pela população
 
 
-
-
-  
-
   
 
 return 0;
