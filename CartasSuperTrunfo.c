@@ -13,10 +13,7 @@ int main() {
   int numero;
   float densidadepopulacional;
   float pibpercapita;
-  char carta1[30] = "Carta 1";
-  char carta2[30] = "Carta 2";
-  unsigned int Carta1 = 500;
-  unsigned int Carta2 = 250;
+  int carta1, carta2;
 
 
   //Área para entrada de dados
@@ -32,6 +29,12 @@ int main() {
 
   printf("Digite o numero de pontos turisticos: \n");
   scanf("%d", &numero);
+
+    printf("Digite a carta1: \n");
+    scanf("%d", &carta1);
+
+    printf("Digite a carta2: \n");
+    scanf("%d", &carta2);
 
     // Densidade populacional: população / pela área
   //PIB per Capita: PIB total dividido pela população
