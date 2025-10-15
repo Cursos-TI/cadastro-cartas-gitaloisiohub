@@ -13,8 +13,10 @@ int main() {
   int numero;
   float densidadepopulacional;
   float pibpercapita;
-
-  
+  char carta1[30] = "Carta 1";
+  char carta2[30] = "Carta 2";
+  unsigned int Carta1 = 500;
+  unsigned int Carta2 = 250;
 
 
   //Área para entrada de dados
@@ -31,15 +33,21 @@ int main() {
   printf("Digite o numero de pontos turisticos: \n");
   scanf("%d", &numero);
 
+    // Densidade populacional: população / pela área
+  //PIB per Capita: PIB total dividido pela população
+
   densidadepopulacional = (populacao / area);
   printf("A densidade populacional é: %.2f\n", densidadepopulacional);
 
   pibpercapita = (pib / populacao);
   printf("Pib per capta é: %.2f\n", pibpercapita);
 
-  
-  // Densidade populacional: população / pela área
-  //PIB per Capita: PIB total dividido pela população
+  if(carta1 > carta2){
+    printf("Carta 1 venceu!\n");
+  }else {
+    printf("Carta 2 derrotada!\n");
+  }
+
 
 
   
