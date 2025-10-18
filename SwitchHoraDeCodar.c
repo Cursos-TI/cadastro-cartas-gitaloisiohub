@@ -47,10 +47,17 @@ int main() {
     }
     
     if (escolhaComputador == escolhaJogador)
-    {
+{
         printf("***O jogo empatou!***");
-    } else if ((escolhaJogador == 1) && (escolhaComputador == 3)) ||
+    } else if ((escolhaJogador == 1) && (escolhaComputador == 3) ||
+              (escolhaJogador == 2) && (escolhaComputador == 1) || 
+              (escolhaJogador == 3) && (escolhaComputador == 2))
 
+    {
+        printf("***Parabéns, você ganhou!!***\n");
+    }   else {
+        printf("## Você perdeu! ##\n");
+    }
     
     
 
